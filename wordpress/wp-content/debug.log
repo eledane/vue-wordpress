@@ -1,0 +1,155 @@
+[29-Oct-2018 16:22:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_slider_blogs() in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php:110
+Stack trace:
+#0 /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php(936): blog_list(Object(WP_REST_Request))
+#1 /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php(321): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php(266): WP_REST_Server->serve_request('/api/v1/blog')
+#3 /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php(373): do_action_ref_array('parse_request' in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php on line 110
+[29-Oct-2018 16:22:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php on line 145
+[29-Oct-2018 16:22:50 UTC] PHP Stack trace:
+[29-Oct-2018 16:22:50 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:22:50 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:22:50 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:22:50 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:22:50 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:22:50 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:22:50 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:22:50 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:22:50 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:22:50 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:22:50 UTC] PHP  11. WP_REST_Server->dispatch() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:321
+[29-Oct-2018 16:22:50 UTC] PHP  12. blog_list() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:936
+[29-Oct-2018 16:22:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php on line 145
+[29-Oct-2018 16:22:50 UTC] PHP Stack trace:
+[29-Oct-2018 16:22:50 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:22:50 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:22:50 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:22:50 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:22:50 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:22:50 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:22:50 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:22:50 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:22:50 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:22:50 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:22:50 UTC] PHP  11. WP_REST_Server->dispatch() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:321
+[29-Oct-2018 16:22:50 UTC] PHP  12. blog_list() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:936
+[29-Oct-2018 16:22:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php:145) in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[29-Oct-2018 16:22:50 UTC] PHP Stack trace:
+[29-Oct-2018 16:22:50 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:22:50 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:22:50 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:22:50 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:22:50 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:22:50 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:22:50 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:22:50 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:22:50 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:22:50 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:22:50 UTC] PHP  11. WP_REST_Server->send_headers() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:353
+[29-Oct-2018 16:22:50 UTC] PHP  12. WP_REST_Server->send_header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1260
+[29-Oct-2018 16:22:50 UTC] PHP  13. header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1248
+[29-Oct-2018 16:22:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php:145) in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[29-Oct-2018 16:22:50 UTC] PHP Stack trace:
+[29-Oct-2018 16:22:50 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:22:50 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:22:50 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:22:50 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:22:50 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:22:50 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:22:50 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:22:50 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:22:50 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:22:50 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:22:50 UTC] PHP  11. WP_REST_Server->send_headers() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:353
+[29-Oct-2018 16:22:50 UTC] PHP  12. WP_REST_Server->send_header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1260
+[29-Oct-2018 16:22:50 UTC] PHP  13. header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1248
+[29-Oct-2018 16:22:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php:145) in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[29-Oct-2018 16:22:50 UTC] PHP Stack trace:
+[29-Oct-2018 16:22:50 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:22:50 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:22:50 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:22:50 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:22:50 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:22:50 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:22:50 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:22:50 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:22:50 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:22:50 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:22:50 UTC] PHP  11. WP_REST_Server->send_headers() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:353
+[29-Oct-2018 16:22:50 UTC] PHP  12. WP_REST_Server->send_header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1260
+[29-Oct-2018 16:22:50 UTC] PHP  13. header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1248
+[29-Oct-2018 16:24:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php on line 144
+[29-Oct-2018 16:24:59 UTC] PHP Stack trace:
+[29-Oct-2018 16:24:59 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:24:59 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:24:59 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:24:59 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:24:59 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:24:59 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:24:59 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:24:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:24:59 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:24:59 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:24:59 UTC] PHP  11. WP_REST_Server->dispatch() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:321
+[29-Oct-2018 16:24:59 UTC] PHP  12. blog_list() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:936
+[29-Oct-2018 16:24:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php on line 144
+[29-Oct-2018 16:24:59 UTC] PHP Stack trace:
+[29-Oct-2018 16:24:59 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:24:59 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:24:59 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:24:59 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:24:59 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:24:59 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:24:59 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:24:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:24:59 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:24:59 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:24:59 UTC] PHP  11. WP_REST_Server->dispatch() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:321
+[29-Oct-2018 16:24:59 UTC] PHP  12. blog_list() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:936
+[29-Oct-2018 16:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php:144) in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[29-Oct-2018 16:24:59 UTC] PHP Stack trace:
+[29-Oct-2018 16:24:59 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:24:59 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:24:59 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:24:59 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:24:59 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:24:59 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:24:59 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:24:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:24:59 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:24:59 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:24:59 UTC] PHP  11. WP_REST_Server->send_headers() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:353
+[29-Oct-2018 16:24:59 UTC] PHP  12. WP_REST_Server->send_header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1260
+[29-Oct-2018 16:24:59 UTC] PHP  13. header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1248
+[29-Oct-2018 16:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php:144) in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[29-Oct-2018 16:24:59 UTC] PHP Stack trace:
+[29-Oct-2018 16:24:59 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:24:59 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:24:59 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:24:59 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:24:59 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:24:59 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:24:59 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:24:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:24:59 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:24:59 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:24:59 UTC] PHP  11. WP_REST_Server->send_headers() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:353
+[29-Oct-2018 16:24:59 UTC] PHP  12. WP_REST_Server->send_header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1260
+[29-Oct-2018 16:24:59 UTC] PHP  13. header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1248
+[29-Oct-2018 16:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/elyzium/Sites/vue-wordpress/wordpress/wp-content/themes/elyzium/functions.php:144) in /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[29-Oct-2018 16:24:59 UTC] PHP Stack trace:
+[29-Oct-2018 16:24:59 UTC] PHP   1. {main}() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:0
+[29-Oct-2018 16:24:59 UTC] PHP   2. require() /Users/elyzium/Sites/vue-wordpress/wordpress/index.php:17
+[29-Oct-2018 16:24:59 UTC] PHP   3. wp() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-blog-header.php:16
+[29-Oct-2018 16:24:59 UTC] PHP   4. WP->main() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/functions.php:960
+[29-Oct-2018 16:24:59 UTC] PHP   5. WP->parse_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:713
+[29-Oct-2018 16:24:59 UTC] PHP   6. do_action_ref_array() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp.php:373
+[29-Oct-2018 16:24:59 UTC] PHP   7. WP_Hook->do_action() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/plugin.php:515
+[29-Oct-2018 16:24:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:310
+[29-Oct-2018 16:24:59 UTC] PHP   9. rest_api_loaded() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/class-wp-hook.php:286
+[29-Oct-2018 16:24:59 UTC] PHP  10. WP_REST_Server->serve_request() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api.php:266
+[29-Oct-2018 16:24:59 UTC] PHP  11. WP_REST_Server->send_headers() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:353
+[29-Oct-2018 16:24:59 UTC] PHP  12. WP_REST_Server->send_header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1260
+[29-Oct-2018 16:24:59 UTC] PHP  13. header() /Users/elyzium/Sites/vue-wordpress/wordpress/wp-includes/rest-api/class-wp-rest-server.php:1248

@@ -936,3 +936,30 @@
 
 </div>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        blog: {}
+      }
+    },
+    methods: {
+      getBlog () {
+        this.axios.get('blog')
+          .then((res) => {
+            console.log(res)
+            this.blog = res.data.blog
+            // console.log(this.blog)
+          })
+          .catch((error) => {
+            console.log(error)
+          })
+      }
+    },
+    mounted () {
+      this.getBlog()
+    }
+  
+  }
+</script>
